@@ -31,7 +31,7 @@ import { Storage } from 'user-storage';
   
 After importing the `Storage` service into your project, your'e ready to use 
 its `static` properties `local` and `session`:
-```typescript
+```javascript
 // set and read a key-value pair into/from localStorage:  
 Storage.local.set('testKeyName', 'testKeyValue');  
 console.log(Storage.local.get('testKeyName'));  
@@ -48,7 +48,7 @@ console.log(Storage.session.get('testKeyName'));
 Method save a key/value pair in the browser's storage.  
 Return: `void`.  
 Example:
-```typescript
+```javascript
 // save value into localStorage:  
 Storage.local.set('testKeyName', 'testKeyValue');  
   
@@ -60,7 +60,7 @@ Storage.session.set('testKeyName', 'testKeyValue');
 Method retrieves the value of a key from the browser's storage.  
 Return: value of the key is the key exists or `null` in case if there is no such key.  
 Example:
-```typescript
+```javascript
 // get the value of a key from localStorage:  
 Storage.local.get('testKeyName');  
   
@@ -72,7 +72,7 @@ Storage.session.get('testKeyName');
 Method removes the key/value pair from the browser's storage.  
 Return: `void`  
 Example:
-```typescript
+```javascript
 // remove the key/value from localStorage:  
 Storage.local.remove('testKeyName');  
   
@@ -84,7 +84,7 @@ Storage.session.remove('testKeyName');
 Method determines if a key is set and is not `null` in the browser's storage.  
 Return: `true` if the key exists and is not `null`. `false` - if there is no such key (or is `null`).  
 Example:
-```typescript
+```javascript
 // check if the key exists in localStorage:  
 Storage.local.isSet('testKeyName');  
   
@@ -96,7 +96,7 @@ Storage.session.isSet('testKeyName');
 Method clears completely the browser's storage.  
 Return: `void`.  
 Example:
-```typescript
+```javascript
 // clear the localStorage:  
 Storage.local.clear();  
   
@@ -108,4 +108,4 @@ Storage.session.clear();
 [https://github.com/tvicpe/user-storage](https://github.com/tvicpe/user-storage)
 
 ### <a name="version"></a>6. Version
-0.0.2
+0.0.3

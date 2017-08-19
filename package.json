@@ -1,6 +1,6 @@
 {
   "name": "user-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "service for working with the browser's local and session storage",
   "main": "dist/storage.min.js",
   "types": "index.d.ts",

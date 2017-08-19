@@ -61,10 +61,10 @@ Method retrieves the value of a key from the browser's storage.
 Return: value of the key is the key exists or `null` in case if there is no such key.  
 Example:
 ```javascript
-// get the value of a key from localStorage:  
+// get the key value from localStorage:  
 Storage.local.get('testKeyName');  
   
-// get the value of a key from sessionStorage:  
+// get the key value from sessionStorage:  
 Storage.session.get('testKeyName');  
 ```
 
@@ -108,4 +108,4 @@ Storage.session.clear();
 [https://github.com/tvicpe/user-storage](https://github.com/tvicpe/user-storage)
 
 ### <a name="version"></a>6. Version
-0.0.3
+0.0.4
